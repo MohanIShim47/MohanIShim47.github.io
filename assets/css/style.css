@@ -28,6 +28,7 @@ body {
   background: var(--base);
   color: var(--text);
   font-family: system-ui, -apple-system, sans-serif;
+  align-items: center;
 }
 
 nav {

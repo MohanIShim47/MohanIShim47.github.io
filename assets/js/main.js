@@ -1,7 +1,3 @@
-function toggleMenu() {
-  document.getElementById("navLinks").classList.toggle("active");
-}
-
 window.onload = function(){
   document.querySelectorAll("nav a").forEach(link => {
     if (link.href === window.location.href) {
