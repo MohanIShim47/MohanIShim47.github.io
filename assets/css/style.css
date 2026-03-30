@@ -1,0 +1,64 @@
+:root {
+  --bg: #1e1e2e;
+  --surface: #313244;
+  --text: #cdd6f4;
+  --accent: #89b4fa;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+.container {
+  padding: 2rem;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background: var(--surface);
+}
+
+.navbar a {
+  color: var(--text);
+  margin-left: 1rem;
+  text-decoration: none;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 4rem 1rem;
+}
+
+/* Grid */
+.grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+/* Cards */
+.card {
+  background: var(--surface);
+  padding: 1.5rem;
+  border-radius: 12px;
+  transition: 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+}
