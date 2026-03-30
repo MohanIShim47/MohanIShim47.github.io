@@ -28,7 +28,11 @@ body {
   background: var(--base);
   color: var(--text);
   font-family: system-ui, -apple-system, sans-serif;
-  align-items: center;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px 20px;
 }
 
 nav {
