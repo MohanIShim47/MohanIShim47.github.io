@@ -1,6 +1,6 @@
 ---
 layout: default
-title: First Post
+title: Welcome
 ---
 
-Welcome to my new modern tools and blog site 🚀
+Welcome to this prototype version of PhiPiBeta. This website may become the actual thing sometime.
