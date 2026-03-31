@@ -9,7 +9,7 @@ title: Blog
   {% for post in site.posts %}
     <div class="grid">
       <div class="card">
-        <h3>{{ post.title }}</h3>
+        <h3>{{ post.title }} by {{ post.author }}</h3>
         <span>{{ post.date | date: "%b %d, %Y" }}</span>
         <p>{{ post.excerpt }}</p>
         <a href="{{ post.url }}" class="btn-card">Go to Post</a>
