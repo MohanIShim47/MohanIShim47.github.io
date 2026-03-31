@@ -30,9 +30,19 @@ body {
   font-family: system-ui, -apple-system, sans-serif;
 }
 
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
 .hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  padding: 60px 20px;
+  min-height: 60vh;
 }
 
 nav {
