@@ -154,6 +154,10 @@ textarea:focus {
     0 0 0 1px var(--mauve);
 }
 
+.card span {
+  margin-top: none;
+}
+
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
