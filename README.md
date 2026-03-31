@@ -1,2 +1,2 @@
 # MohanIShim47.github.io
-A styled prototype for upgrading PhiPiBeta
+A portal for hosting my websites
