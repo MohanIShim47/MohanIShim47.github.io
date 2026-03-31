@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Welcome
+title: Explanation of Bookmarklets.
 author: TEDA
 excerpt: A full explanation of bookmarklets.
 ---
