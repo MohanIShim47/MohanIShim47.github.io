@@ -4,6 +4,7 @@ title: Explanation of Bookmarklets.
 author: TEDA
 excerpt: A full explanation of bookmarklets.
 
+tags: [javascript, school, special]
 categories: [tech]
 ---
 

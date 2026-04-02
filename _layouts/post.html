@@ -4,10 +4,14 @@ layout: default
 
 <div class="container">
   <article class="card post-content">
+    
     <h1>{{ page.title }}</h1>
+
     <p class="post-meta">
       {{ page.author }} • {{ page.date | date: "%B %d, %Y" }}
     </p>
+
+    <!-- Categories -->
     {% if page.categories %}
       <div class="post-categories">
         {% for category in page.categories %}
@@ -15,7 +19,19 @@ layout: default
         {% endfor %}
       </div>
     {% endif %}
+
+    <!-- Tags -->
+    {% if page.tags %}
+      <div class="post-tags">
+        {% for tag in page.tags %}
+          <a href="/tags#{{ tag }}" class="tag">#{{ tag }}</a>
+        {% endfor %}
+      </div>
+    {% endif %}
+
     <hr />
+
     {{ content }}
+
   </article>
 </div>
