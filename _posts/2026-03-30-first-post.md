@@ -4,7 +4,6 @@ title: Welcome
 author: TEDA
 excerpt: A welcome to PhiPiBeta prototype.
 
-tags: [school, important, news]
 categories: [annoucement]
 ---
 

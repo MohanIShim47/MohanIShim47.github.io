@@ -5,15 +5,51 @@ title: Blog
 
 <h1>Latest Posts</h1>
 
+<div class="filters">
+  <button onclick="filterPosts('all')" class="active">All</button>
+  {% assign categories = site.categories | sort %}
+  {% for category in categories %}
+    <button onclick="filterPosts('{{ category[0] }}')">
+      {{ category[0] }}
+    </button>
+  {% endfor %}
+</div>
+
 <ul class="posts">
   {% for post in site.posts %}
-    <div class="grid">
+    <div class="grid post-item"
+         data-category="{{ post.categories | join: ' ' }}">
       <div class="card">
         <h3>{{ post.title }} by {{ post.author }}</h3>
         <span>{{ post.date | date: "%b %d, %Y" }}</span>
         <p>{{ post.excerpt }}</p>
+        <div class="post-cats">
+          {% for category in post.categories %}
+            <span class="cat">{{ category }}</span>
+          {% endfor %}
+        </div>
+
         <a href="{{ post.url }}" class="btn-card">Go to Post</a>
       </div>
     </div>
   {% endfor %}
 </ul>
+
+<script>
+function filterPosts(category) {
+  const posts = document.querySelectorAll('.post-item');
+  const buttons = document.querySelectorAll('.filters button');
+  buttons.forEach(btn => btn.classList.remove('active'));
+  event.target.classList.add('active');
+
+  posts.forEach(post => {
+    const categories = post.getAttribute('data-category');
+
+    if (category === 'all' || categories.includes(category)) {
+      post.style.display = 'block';
+    } else {
+      post.style.display = 'none';
+    }
+  });
+}
+</script>
