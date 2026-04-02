@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<div class="container">
+  <article class="card post-content">
+    
+    <h1>{{ page.title }} by {{ page.author }}</h1>
+    <p class="post-meta">
+      {{ page.author }} • {{ page.date | date: "%B %d, %Y" }}
+    </p>
+    <hr />
+    {{ content }}
+  </article>
+</div>

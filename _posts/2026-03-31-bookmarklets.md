@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Explanation of Bookmarklets.
 author: TEDA
 excerpt: A full explanation of bookmarklets.
@@ -15,13 +15,17 @@ Bookmarklets are small pieces of JavaScript saved as browser bookmarks. Instead 
 
 A bookmarklet starts with:
 
-javascript:
+```js
+    javascript:
+```
 
 When clicked, your browser executes the code instantly.
 
 ```js
     javascript:alert('Hello!')
 ```
+
+---
 
 ## What they can do?
 
@@ -30,15 +34,21 @@ When clicked, your browser executes the code instantly.
 - Remove clutter
 - Add quick tools to any site
 
+---
+
 ## Why use them?
 
 - No installation needed
 - Fast and lightweight
 - Fully customizable
 
+---
+
 ## Safety
 
 Only use bookmarklets from sources you trust—they can run any code on a page.
+
+---
 
 ## Quick example:
 
@@ -47,6 +57,8 @@ Only use bookmarklets from sources you trust—they can run any code on a page.
 ```
 
 Click it to invert colors on any website.
+
+---
 
 ## Conclusion
 

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Welcome
 author: TEDA
 excerpt: A welcome to PhiPiBeta prototype.
@@ -15,6 +15,8 @@ Welcome to PhiPiBeta, a website built for freedom, we provide you with all the t
 - Tools
 - Blog
 - More to come
+
+---
 
 ## A thank you
 
