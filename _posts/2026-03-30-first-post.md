@@ -3,6 +3,8 @@ layout: post
 title: Welcome
 author: TEDA
 excerpt: A welcome to PhiPiBeta prototype.
+
+categories: [annoucement]
 ---
 
 # Welcome!!

@@ -4,11 +4,17 @@ layout: default
 
 <div class="container">
   <article class="card post-content">
-    
-    <h1>{{ page.title }} by {{ page.author }}</h1>
+    <h1>{{ page.title }}</h1>
     <p class="post-meta">
       {{ page.author }} • {{ page.date | date: "%B %d, %Y" }}
     </p>
+    {% if page.categories %}
+      <div class="post-categories">
+        {% for category in page.categories %}
+          <span class="category">{{ category }}</span>
+        {% endfor %}
+      </div>
+    {% endif %}
     <hr />
     {{ content }}
   </article>

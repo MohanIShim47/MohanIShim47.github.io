@@ -46,6 +46,44 @@ body {
   padding: 60px 20px 30px;
 }
 
+.card-post {
+  background: var(--mantle);
+  border: 1px solid var(--surface0);
+  border-radius: 16px;
+  padding: 18px;
+  margin: 12px 0;
+  width: 100%;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
+  transition: all 0.2s ease;
+}
+
+.post-tags,
+.post-categories {
+  margin: 10px 0;
+}
+
+.tag,
+.category {
+  display: inline-block;
+  background: var(--surface1);
+  color: var(--text);
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  margin: 4px 4px 0 0;
+  transition: 0.2s;
+}
+
+.tag:hover {
+  background: var(--mauve);
+  color: var(--base);
+}
+
+.category {
+  background: var(--blue);
+  color: var(--base);
+}
+
 nav {
   background: var(--mantle);
   padding: 12px 16px;
