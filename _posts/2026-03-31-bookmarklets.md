@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Explanation of Bookmarklets.
+title: Explanation of Bookmarklets
 author: TEDA
 excerpt: A full explanation of bookmarklets.
 
