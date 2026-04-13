@@ -2,7 +2,7 @@
 layout: post
 title: Welcome
 author: TEDA
-excerpt: A welcome to PhiPiBeta prototype.
+excerpt: A welcome to PhiPiBeta
 
 categories: [annoucement]
 ---
@@ -17,6 +17,12 @@ Welcome to PhiPiBeta, a website built for freedom, we provide you with all the t
 - Tools
 - Blog
 - More to come
+
+---
+
+## Quick Clarification
+
+PhiPiBeta is owned by SUDO and I don't take ownership of phipibeta either. You may have seen TEDA in the title of the page before. but I removed it now because that was just when this site was still a prototype and not the full on official PhiPiBeta. So if you had thought I, TEDA, owned PhiPiBeta, you now know that I do not.
 
 ---
 
