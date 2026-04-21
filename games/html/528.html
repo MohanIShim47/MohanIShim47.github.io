@@ -1,0 +1,79 @@
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6FBQ0CLQN0"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-6FBQ0CLQN0');
+</script>  <!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Nickelodeon</title>
+    	<base href="https://cdn.jsdelivr.net/gh/waycrosspublicmedia/whatver/spongebob-sizzle/">
+        <script src="webkitAudioContextMonkeyPatch.js"></script>
+		<script src="ios_game_coda.js"></script> <script src="/nick-assets/iosReporting/coda_config.js"></script>
+	    <script type="text/javascript" src="jsembed.js"></script>
+	    <!--<script type="text/javascript" src="http://client-archive.workinman.com/clients/workinman/jsembed/jsembed.js"></script>-->	       		
+		<script type="text/javascript" >			
+			// Parameters configure jsembed itself.
+			var params = {
+				base: "https://cdn.jsdelivr.net/gh/waycrosspublicmedia/whatver/spongebob-sizzle/", // base url of all content. Defaults ""
+			 	api: "flambe", // supported custom apis are defined in jsembed. Defaults none.
+			 	autoscale: "true", // update window.canvasScale on window resize? Defaults true.
+			 	//indexroot: "true", // use index url as path root? If false, uses domain root instead. Defaults false (uses domain root).
+			 	//libs: ["flambe.js"] // array of libs to embed before trying to launch app. Defaults []
+			}			
+			// Attributes will be set on the embed target for use by the app. "base" will be set as well.
+			var attr = {				
+				
+			};
+			
+			jsembed.embed("flambe.js", "embedtarget", "960", "560", params, attr);
+		</script>	   	
+	<style>
+#sidebarad1,
+#sidebarad2 {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 160px;
+  height: 600px;
+  padding: 0;
+  margin: 0;
+  z-index: 999999;
+}
+#sidebarad1 {
+  left: 0;
+}
+#sidebarad2 {
+  right: 0;
+}
+.sidebar-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 22px;
+  height: 22px;
+  line-height: 22px;
+  text-align: center;
+  background: rgba(0,0,0,0.7);
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  user-select: none;
+  z-index: 10;
+}
+.sidebar-frame {
+  width: 160px;
+  height: 600px;
+  border: none;
+  display: block;
+}
+</style>
+</head>
+	<body style="padding: 0; margin: 0; background-color:#000000">
+		<div id="embedtarget"></div>	
+	
+</body>
+</html>
