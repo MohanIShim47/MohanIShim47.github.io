@@ -10,6 +10,7 @@
 
   --text: #E6EEF5;
   --subtext: #A8B8C6;
+  --icons: #09aeb9;
 
   --border: #1A2A38;
 }
@@ -182,8 +183,19 @@ body {
   box-shadow: 0 0 15px rgba(53, 224, 243, 0.2);
 }
 
+.card .side-by-side {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 0.8rem;
+}
+
+.card svg {
+  color: var(--icons);
+}
+
 .card h3 {
-  margin-bottom: 0.5rem;
+  margin: 0;
 }
 
 .card p {

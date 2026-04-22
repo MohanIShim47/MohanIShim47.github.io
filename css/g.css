@@ -224,6 +224,7 @@ header {
   display: none;
   flex-direction: column;
   z-index: 999;
+  height: 100%;
 }
 
 #gameHeader {
