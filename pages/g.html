@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <link rel="icon" href="https://statics.teams.cdn.live.net/evergreen-assets/icons/Teams_Logo_v2025_80x80.png">
     <title id="tab-name">(1) Assignments | Assignments | Microsoft Teams</title>
-    <link rel="stylesheet" href="assets/css/g.css">
+    <link rel="stylesheet" href="/assets/css/g.css">
   </head>
   <body>
     <div id="loader">
@@ -15,8 +15,8 @@
       <div class="logo">
         <img src="logo.png" alt="Logo">
       </div>
-      <a href="/"><i data-lucide="home"></i></a>
-      <a href="/g.html" class="active"><i data-lucide="gamepad-2"></i></a>
+      <a href="/" onclick="event.preventDefault(); navigate('/')"><i data-lucide="home"></i></a>
+      <a href="/g" onclick="event.preventDefault(); navigate('/g')" class="active"><i data-lucide="gamepad-2"></i></a>
     </aside>
     <div class="content">
       <header>
@@ -37,7 +37,7 @@
       <div id="gameContent"></div>
     </div>
     <script src="https://unpkg.com/lucide@latest"></script>
-    <script src="assets/js/main.js"></script>
-    <script src="assets/js/g.js"></script>
+    <script src="/assets/js/index.js"></script>
+    <script src="/assets/js/g.js"></script>
   </body>
 </html>
