@@ -5,7 +5,7 @@ window.addEventListener("DOMContentLoaded", () => {
   let allGames = [];
   let popularityMap = {};
 
-  fetch("/json/zones.json")
+  fetch("/assets/json/zones.json")
     .then((r) => r.json())
     .then((data) => {
       allGames = data.map((g) => ({

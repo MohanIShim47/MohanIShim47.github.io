@@ -1,0 +1,26 @@
+{
+  "name": "ang",
+  "version": "1.0.0",
+  "description": "ANG, the best ubg gxme site",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MohanIShim47/ANG.git"
+  },
+  "keywords": [
+    "fun, gxmes, online"
+  ],
+  "author": "TEDA",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/MohanIShim47/ANG/issues"
+  },
+  "homepage": "https://github.com/MohanIShim47/ANG#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
