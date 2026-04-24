@@ -1,12 +1,57 @@
-<!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>App</title>
-    </head>
-    <body>
-        <div id="app"></div>
-        <script src="js/main.js"></script>
-    </body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="https://statics.teams.cdn.live.net/evergreen-assets/icons/Teams_Logo_v2025_80x80.png">
+    <title id="tab-name">Teams and Channels | General | Microsoft Teams</title>
+    <link rel="stylesheet" href="assets/css/index.css" />
+  </head>
+  <body>
+    <div id="loader">
+      <div class="spinner"></div>
+    </div>
+    <aside class="sidebar">
+      <div class="logo">
+        <img src="assets/img/logo.png" alt="Logo">
+      </div>
+      <a href="/" class="active"><i data-lucide="home"></i></a>
+      <a href="/g.html"><i data-lucide="gamepad-2"></i></a>
+    </aside>
+    <main class="main">
+      <section class="hero">
+        <img src="assets/img/logo.png" alt="Logo" style="width: 10rem">
+        <h1>ANG</h1>
+        <p>Your place for fun, freedom, and amazing Gαmes 🎮</p>
+        <div class="buttons">
+          <a href="/g.html" class="btn primary">Play Gαmes</a>
+        </div>
+      </section>
+      <section class="card-grid">
+        <div class="card">
+          <div class="side-by-side">
+            <i data-lucide="gamepad-2"></i>
+            <h3>Gαmes</h3>
+          </div>
+          <p>Play a huge collection of browser gαmes instantly.</p>
+        </div>
+        <div class="card">
+          <div class="side-by-side">
+            <i data-lucide="zap"></i>
+            <h3>Fast</h3>
+          </div>
+          <p>No downloads. No waiting. Just click and play.</p>
+        </div>
+        <div class="card">
+          <div class="side-by-side">
+            <i data-lucide="lock"></i>
+            <h3>Gn-Math Library</h3>
+          </div>
+          <p>Enjoy gαmes from gn-math on here!</p>
+        </div>
+      </section>
+    </main>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="assets/js/index.js"></script>
+  </body>
 </html>
