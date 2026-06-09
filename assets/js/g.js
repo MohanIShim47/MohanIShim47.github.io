@@ -134,4 +134,5 @@ window.addEventListener("DOMContentLoaded", () => {
     if (!document.fullscreenElement) el.requestFullscreen();
     else document.exitFullscreen();
   }
+
 });
