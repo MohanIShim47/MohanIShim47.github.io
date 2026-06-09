@@ -4,6 +4,7 @@ window.addEventListener("DOMContentLoaded", () => {
 
   let allGames = [];
   let popularityMap = {};
+  let currentGame = null;
 
   fetch("/assets/json/zones.json")
     .then((r) => r.json())
@@ -81,6 +82,8 @@ window.addEventListener("DOMContentLoaded", () => {
   }
 
   async function openGame(game) {
+    currentGame = game;
+
     document.getElementById("gameContainer").style.display = "flex";
     document.body.style.overflow = "hidden";
 
@@ -123,7 +126,7 @@ window.addEventListener("DOMContentLoaded", () => {
     document.getElementById("gameContainer").style.display = "none";
     document.body.style.overflow = "";
     document.getElementById("gameContent").innerHTML = "";
-    document.title = "Games";
+    document.title = "";
   }
 
   function toggleFullscreen() {
