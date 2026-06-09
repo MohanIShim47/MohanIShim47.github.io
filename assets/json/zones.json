@@ -10,6 +10,7 @@
   {
     "id": 1,
     "name": "OvO",
+    "featured": true,
     "cover": "{COVER_URL}/1.png",
     "url": "{HTML_URL}/1.html",
     "author": "Dedra Games",
@@ -1222,7 +1223,6 @@
     "url": "{HTML_URL}/166.html",
     "author": "98corbins",
     "authorLink": "https://98corbins.netlify.app",
-    "featured": true,
     "special": ["port"]
   },
   {
@@ -2378,6 +2378,7 @@
   {
     "id": 303,
     "name": "Territorial.io",
+    "featured": true,
     "cover": "{COVER_URL}/303.png",
     "url": "{HTML_URL}/303.html",
     "author": "TTCreator",
