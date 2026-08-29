@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="icon" type="image/x-icon" href="http://127.0.0.1:5500/assets/img/BlueWire.png">
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+        >
+        <title>Create Post | BlueWire News</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header class="header">
+            <div class="header-container">
+                <a href="index.html" class="logo-section">
+                    <img src="/assets/img/BlueWire.png" alt="BlueWire Logo" class="logo">
+                    BLUE<span>WIRE</span>
+                </a>
+                <nav class="nav">
+                    <a href="index.html">
+                        Home
+                    </a>
+                </nav>
+            </div>
+        </header>
+
+
+        <main class="post-page">
+            <div class="post-intro">
+                <p class="section-label">
+                    PUBLISH
+                </p>
+                <h1>
+                    Create a News Article
+                </h1>
+                <p>
+                    Write your story and publish it to BlueWire.
+                </p>
+            </div>
+
+
+            <form id="post-form" class="post-form">
+                <label for="post-title">
+                    Article Title
+                </label>
+                <input
+                    type="text"
+                    id="post-title"
+                    placeholder="Enter your headline..."
+                    required
+                >
+                <label for="post-category">
+                    Category
+                </label>
+                <select id="post-category">
+                    <option value="Announcements">
+                        Announcements
+                    </option>
+                    <option value="gaming">
+                        Gaming
+                    </option>
+                    <option value="technology">
+                        Technology
+                    </option>
+                    <option value="Cool">
+                        Cool
+                    </option>
+                </select>
+                <label for="post-description">
+                    Short Description
+                </label>
+                <textarea
+                    id="post-description"
+                    rows="4"
+                    placeholder="Write a short summary..."
+                    required
+                ></textarea>
+                <label for="post-content">
+                    Full Article
+                </label>
+                <textarea
+                    id="post-content"
+                    rows="14"
+                    placeholder="Write your full article..."
+                    required
+                ></textarea>
+                <button
+                    type="submit"
+                    class="publish-button"
+                >
+                    Publish Article →
+                </button>
+            </form>
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>

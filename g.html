@@ -6,6 +6,12 @@
     <link rel="icon" href="https://statics.teams.cdn.live.net/evergreen-assets/icons/Teams_Logo_v2025_80x80.png">
     <title id="tab-name">(1) Assignments | Assignments | Microsoft Teams</title>
     <link rel="stylesheet" href="assets/css/g.css">
+    <script src="/assets/js/secret.js"></script>
+    <script>
+      if (sessionStorage.getItem("tedaAccess") !== "true") {
+          window.location.href = "/News/index.html";
+      }      
+    </script>
   </head>
   <body>
     <div id="loader">
@@ -17,13 +23,12 @@
       </div>
       <a href="/"><i data-lucide="home"></i></a>
       <a href="/g.html" class="active"><i data-lucide="gamepad-2"></i></a>
+      <a href="/News/index.html" class="btn primary"><i data-lucide="info"></i></a>
     </aside>
     <div class="content">
       <header>
         <input id="search" placeholder="Search games…" />
       </header>
-
-      <h2>All Games</h2>
       <div class="grid" id="games">Loading...</div>
     </div>
     <div id="gameContainer">

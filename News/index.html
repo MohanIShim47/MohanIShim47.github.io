@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="http://127.0.0.1:5500/assets/img/BlueWire.png">
+    <title>BlueWire News</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="/assets/js/secret.js"></script>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header-container">
+            <a href="index.html" class="logo-section">
+                <img src="/assets/img/BlueWire.png" alt="BlueWire Logo" class="logo">
+                BLUE<span>WIRE</span>
+            </a>
+            <nav class="nav">
+                <a href="index.html">Home</a>
+                <a href="#latest">Latest</a>
+            </nav>
+        </div>
+    </header>
+
+
+    <section class="hero">
+        <div class="hero-content">
+            <div class="breaking">
+                ● BREAKING NEWS
+            </div>
+            <h1>
+                News That Keeps You
+                <span>In The Know.</span>
+            </h1>
+            <p>
+                Discover the latest stories from technology,
+                gaming, cool news, announcements, and more.
+            </p>
+            <a href="#latest" class="hero-button">
+                Explore Latest News →
+            </a>
+        </div>
+    </section>
+
+    <section class="categories-section">
+        <div class="categories">
+            <button class="category active"
+                onclick="filterNews('all', this)">
+                All
+            </button>
+            <button class="category"
+                onclick="filterNews('Announcements', this)">
+                Announcements
+            </button>
+            <button class="category"
+                onclick="filterNews('gaming', this)">
+                Gaming
+            </button>
+            <button class="category"
+                onclick="filterNews('Technology', this)">
+                Technology
+            </button>
+            <button class="category"
+                onclick="filterNews('Cool', this)">
+                Cool
+            </button>
+        </div>
+    </section>
+
+
+    <main id="latest" class="main-content">
+        <div class="section-header">
+            <div>
+                <p class="section-label">
+                    LATEST NEWS
+                </p>
+                <h2>
+                    Latest Stories
+                </h2>
+            </div>
+        </div>
+        <div id="news-container" class="news-grid">
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div>
+            <h2 class="footer-logo">
+                BLUE<span>WIRE</span>
+            </h2>
+            <p>
+                News, stories, and updates from around the world.
+            </p>
+        </div>
+        <p class="copyright">
+            © 2026 BlueWire News
+        </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
